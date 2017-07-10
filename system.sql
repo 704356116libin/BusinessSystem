@@ -1,0 +1,1 @@
+SELECT * FROM db_mydatabase.tb_problem;
