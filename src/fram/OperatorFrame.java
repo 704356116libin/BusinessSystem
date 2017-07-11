@@ -75,7 +75,8 @@ public class OperatorFrame extends JInternalFrame{
 	private DepartmentManager departmentManager;//查询部门信息
 	private int row;
 	public OperatorFrame() {
-		setClosable(true);
+		setTitle("员工管理");
+		setClosable(false);
 		setResizable(false);
 		setBounds(80, 80, 700, 400);
 		container=getContentPane();

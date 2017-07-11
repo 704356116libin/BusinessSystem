@@ -64,7 +64,7 @@ public class ShopProviderFrame extends JInternalFrame{
 	private int row;
 	public ShopProviderFrame() {
 		setTitle("π©”¶…Ã");
-		setClosable(true);
+		setClosable(false);
 		setResizable(false);
 		setBounds(5, 5, 700, 400);
 		container=getContentPane();

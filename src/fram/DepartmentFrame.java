@@ -58,7 +58,7 @@ public class DepartmentFrame extends JInternalFrame{
 	private int row;
 	public DepartmentFrame() {
 		setTitle("≤ø√≈µ•");
-		setClosable(true);
+		setClosable(false);
 		setResizable(false);
 		setBounds(95, 95, 600, 300);
 		container=getContentPane();
